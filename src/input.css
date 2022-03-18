@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    scroll-behavior: smooth !important;
+}
+
+.active {
+    color: #a3a3ff;
+}
+.menu_item:hover {
+    color: #a3a3ff;
+}
+.burger {
+    cursor: pointer;
+}
+.nav_point {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #404053;
+    border-radius: 50%;
+}
+/* 3f3fff */
+.active_point {
+    background-color: #3f3fff;
+    border: #3f3fff;
+}
+/* h2_heading_width_beffore */
+.h2_heading {
+    position: relative;
+}
+.h2_heading::before {
+    content: '';
+    width: 50px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: #3f3fff;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.clients_span {
+    padding: 5px 15px;
+    background-color: #3f3f51;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+

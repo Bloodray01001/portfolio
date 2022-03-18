@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Potfolio</title>
+    <!-- css -->
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- remix icom -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="bg-[#181820] text-white">
+    <!-- header -->
+    <header class="w-full flex justify-between container mx-auto py-3 lg:py-7 px-5 lg:px-16" id="home">
+        <div><a href="" class="text-xl font-bold">Jonathan.doe</a></div>
+        <div class="hidden lg:block flex space-x-14">
+                    <a href="" class="menu_item active">Home</a>
+                    <a href="" class="menu_item">My Work</a>
+                    <a href="" class="menu_item">Clients</a>
+                    <a href="" class="px-7 py-2 bg-[#3f3fff] font-bold">Hire Me</a>
+        </div>
+        <div class="block lg:hidden text-white text-2xl">
+            <i class="ri-menu-fill burger"></i>
+        </div>
+    </header>
+    <!-- slider wrapper -->
+    <div class="container relative mx-auto lg:py-7 py-3 lg:px-16 px-5 flex justify-start overflow-hidden">
+        <!-- navigation point -->
+        <div class="fixed left-7 top-1/3">
+            <nav class="navigator flex flex-col gap-5 justify-end">
+                <div class="flex justify-end"><a href="#home"  behavior="slide" class="nav_point active_point"></a></div>
+                <div class="flex justify-end"><a href="#works" class="nav_point"></a></div>
+                <div class="flex justify-end"><a href="#clients" class="nav_point"></a></div>
+                <div class="flex justify-end"><a href="#contacts" class="nav_point"></a></div>
+            </nav>
+        </div>
+
+        <div class="flex items-center w-2/5">
+            <div class="ml-20 my-40 z-10">
+                <h2 class="text-7xl font-bold mb-14">Building beautiful web experiences.</h2>
+                <a href="" class="px-6 py-4 bg-[#3f3fff] font-bold inline-flex items-center"><i class="ri-eye-fill font-normal text-2xl mr-3"></i> View my work.</a>
+            </div>
+        </div>
+        <img src="src/img/man.png" class="absolute right-0 top-0 w-4/5 " alt="">
+    </div>
+    <!-- my work -->
+    <div class="container mx-auto lg:py-7 py-4 lg:px-16 px-5 mb-28" id="works">
+        <div class="lg:w-1/2 w-full p-5 h2_heading">
+            <h2 class="text-3xl font-bold mb-5">My work</h2>
+            <p class="font-normal text-lg text-[#9191a4] mb-14">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and  backend</p>
+        </div>
+        <div class="grid lg:grid-cols-3 grid-cols-2 grid-rows-3 gap-7 ">
+            <div class=" h-60 flex items-center justify-center bg-teal-500">01</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">02</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">03</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">04</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">05</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">06</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">07</div>
+            <div class=" h-60 flex items-center justify-center bg-teal-500">08</div>
+            <div class=" col-start-1 col-end-3 lg:col-start-3 lg:col-end-4 h-60 flex items-center justify-center bg-teal-500">09</div>
+        </div>
+    </div>
+    <!-- ----CLIENTS------------------------------------------------------------------------------ -->
+    <div class="container mx-auto lg:py-7 py-4 lg:px-16 px-5 mb-28" id="clients">
+        <div class="lg:w-1/2 w-full p-5 h2_heading mb-14">
+            <h2 class="text-3xl font-bold mb-5">Clients</h2>
+            <p class="font-normal text-lg text-[#9191a4] mb-14">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and  backend</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row lg:gap-28 gap-5 px-40 pt-24 pb-10 mb-14 border lg:justify-start justify-center lg:text-left text-center border-[#404053]">
+            <div>
+                <i class="ri-apple-fill text-8xl"></i>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-5">Apple, inc.</h2>
+                <div class="flex gap-3 mb-5 lg:justify-start justify-center">
+                    <span class="clients_span">UX/UX</span>
+                    <span class="clients_span">Frontend development</span>
+                </div>
+                <p class="font-normal text-lg text-[#9191a4] mb-14">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:gap-28 gap-5 px-40 pt-24 pb-10 mb-14 border lg:justify-start justify-center lg:text-left text-center border-[#404053]">
+            <div>
+                <i class="ri-apple-fill text-8xl"></i>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-5">Apple, inc.</h2>
+                <div class="flex gap-3 mb-5 lg:justify-start justify-center">
+                    <span class="clients_span">UX/UX</span>
+                    <span class="clients_span">Frontend development</span>
+                </div>
+                <p class="font-normal text-lg text-[#9191a4] mb-14">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:gap-28 gap-5 px-40 pt-24 pb-10 mb-14 border lg:justify-start justify-center lg:text-left text-center border-[#404053]">
+            <div>
+                <i class="ri-apple-fill text-8xl"></i>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-5">Apple, inc.</h2>
+                <div class="flex gap-3 mb-5 lg:justify-start justify-center">
+                    <span class="clients_span">UX/UX</span>
+                    <span class="clients_span">Frontend development</span>
+                </div>
+                <p class="font-normal text-lg text-[#9191a4] mb-14">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+            </div>
+        </div>
+        
+          
+    </div>
+
+    <div class="container mx-auto lg:py-7 py-4 lg:px-16 px-5 mb-28" id="contacts">
+        <div class="lg:w-1/2 w-full p-5 h2_heading mb-9">
+            <h2 class="text-3xl font-bold mb-5">Hire me</h2>
+            <p class="font-normal text-lg text-[#9191a4] mb-14">Feel free to to contact me any time, through any method below.</p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-28">
+            <div class="w-full lg:w-2/5">
+                <form action="" method="post" class="pl-5">
+                    <h3 class="text-xl font-bold text-white mb-5">Name</h3>
+                    <input type="text" id="name1" class="w-full p-4 bg-[#2a2a35] border border-[#565666] mb-9 ">
+                    <h3 class="text-xl font-bold text-white mb-5">Email</h3>
+                    <input type="text" id="mail" class="w-full p-4 bg-[#2a2a35] border border-[#565666] mb-9 ">
+                    <h3 class="text-xl font-bold text-white mb-5">Message</h3>
+                    <textarea name="textarea1" id="message_text" class="w-full bg-[#2a2a35] border mb-9 border-[#565666] p-4" cols="30" rows="10"></textarea>
+                    <button class="bg-[#3f3fff] text-white font-bold text-xl border-none py-2 px-5 " id="sendButton">Send it!</button>
+                </form>
+            </div>
+            <div>
+                <div class="flex flex-col pt-[2rem]">
+                    <a href="tel:555-555-1234" class="text-[#89879c] text-lg ">555-555-1234</a>
+                    <a href="mailto:email@mydomain.com" class="text-[#89879c] text-lg mb-28 ">email@mydomain.com</a>
+                    <div class="flex gap-5">
+                        <a href=""><i class="ri-skype-fill text-5xl "></i></a>
+                        <a href=""><i class="ri-twitter-fill text-5xl "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        //menu toggle
+        
+        let navigator = document.querySelector('.navigator');
+
+        // add hovered class in selected list item
+        let links = document.querySelectorAll('.navigator div a')
+        function activeLink(){
+            links.forEach((item) => {
+                item.classList.remove('active_point');
+                this.classList.add('active_point');
+            })
+            
+        }
+        links.forEach((item) => {
+            item.addEventListener('click', activeLink)
+        })
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./src/js/servis.js"></script>
+    
+</body>
+</html>
